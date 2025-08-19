@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+
+.header {
+    background-color: antiquewhite;
+    color: brown;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 20px;
+}
+
+.header p {
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.beranda {
+    background-color: rgb(255, 255, 255);
+}
+
+.beranda h1 {
+    font-size: 40px;
+}
+
+.profile {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-gambar img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.profile-deskripsi {
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.galeri {
+    background-color: white;
+}
+
+.grid-galeri {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.grid-galeri img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: beige;
+    padding: 30px;
+}
